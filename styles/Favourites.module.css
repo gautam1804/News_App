@@ -1,0 +1,124 @@
+/* Style the container */
+.favourites-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Style the title */
+/* Center the title both horizontally and vertically */
+.favourites-title {
+  font-size: 24px;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Style the message when there are no favourite articles */
+.no-favourites-message {
+  font-size: 18px;
+  color: #777;
+}
+
+/* Style the discover button */
+.discover-button {
+  text-decoration: none;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block; /* Added for responsiveness */
+  margin: 20px auto; /* Added for responsiveness */
+  text-align: center; /* Added for responsiveness */
+}
+
+.discover-button:hover {
+  background-color: #0056b3;
+}
+
+.discover-button2 {
+  color: #fff;
+  background: black;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 15px;
+  text-align: center;
+  font-size: large;
+}
+
+
+
+/* Style the list of favourite articles */
+.favourites-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Style each favourite item */
+.favourite-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Style the article title */
+.favourite-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style the remove button */
+.remove-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #a71d2a;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+
+
+  /* Apply responsive styles to the container */
+  .favourites-container {
+    max-width: 95%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  /* Apply responsive styles to the title */
+  .favourites-title {
+    font-size: 20px;
+  }
+
+  /* Apply responsive styles to the discover button */
+  .discover-button {
+    margin: 10px auto;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}
+
+
+

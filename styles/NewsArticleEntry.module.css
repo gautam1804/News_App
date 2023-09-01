@@ -1,0 +1,56 @@
+  /* Style for the article card */
+  .articleCard {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Display articles in a row */
+    justify-content: space-between; /* Add space between columns */
+  }
+
+  /* Style the article image */
+  .image {
+    
+    object-fit: cover;
+    height: 198px;
+    width: 45%; /* Adjust the width for two columns */
+    margin-right: 10px; /* Add some spacing between columns */
+    /* align-items: center; */
+  }
+
+  /* Style for the article content */
+  .articleContent {
+    width: 55%; /* Adjust the width for two columns */
+    text-decoration: underline;
+    color: black;
+  }
+
+  /* Style for the favorite button container */
+  .favoriteButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start; /* Align the favorite button to the top */
+    margin-top: 10px; /* Add some spacing between image and button */
+  }
+
+  /* Style for the favorite button */
+  .favoriteButton {
+    background:none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+
+
+  }
+
+  /* Style for the favorite icon */
+  .favoriteIcon {
+    color: #f00;
+  }
+
+  /* Style for the favorite icon when article is marked as favorite */
+  .favorite {
+    
+    color: #f00;
+  }
