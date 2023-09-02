@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import NewsArticleEntry from '../pages/NewsArticleEntry'; // Replace with the actual path to NewsArticleEntry
+import NewsArticleEntry from '../pages/NewsArticleEntry';
 import styles from '../styles/Favourites.module.css';
 
 const FavouritesList = ({ favourites }) => {
